@@ -1,0 +1,303 @@
+
+[
+  {
+    "id": 1,
+    "text": "Is one moment of genuine happiness worth years of loneliness?",
+    "category": "Literature",
+    "type": "Question",
+    "source": "White Nights — Fyodor Dostoevsky",
+    "context": "Dostoevsky explores how a brief human connection can transform a lonely person's inner world.",
+    "followUp": "Does the duration of happiness determine its value?",
+    "publishDate": "2026-10-28"
+  },
+  {
+    "id": 2,
+    "text": "Would you expose your closest friend's wrongdoing if doing so destroyed their future?",
+    "category": "Morality",
+    "type": "Dilemma",
+    "source": "Original moral dilemma",
+    "context": "Loyalty to a friend can conflict with responsibility to someone who has been harmed.",
+    "followUp": "Would your answer change depending on the harm caused?",
+    "publishDate": "2026-10-29"
+  },
+  {
+    "id": 3,
+    "text": "If everyone around you accepts a lie, how do you know you're right?",
+    "category": "Society",
+    "type": "Question",
+    "source": "1984 — George Orwell",
+    "context": "Orwell's novel explores propaganda, manipulated truth and the pressure to conform.",
+    "followUp": "What evidence would make you doubt your own beliefs?",
+    "publishDate": "2026-10-30"
+  },
+  {
+    "id": 4,
+    "text": "Why might someone be less likely to help when more people are watching?",
+    "category": "Psychology",
+    "type": "Question",
+    "source": "The bystander effect",
+    "context": "Research into the bystander effect examines how responsibility can become diffused among witnesses.",
+    "followUp": "Would you act differently if you were the only witness?",
+    "publishDate": "2026-10-31"
+  },
+  {
+    "id": 5,
+    "text": "Is a good deed still good if you only do it to be admired?",
+    "category": "Ethics",
+    "type": "Question",
+    "source": "Original thought experiment",
+    "context": "An action can benefit someone while being motivated by personal recognition.",
+    "followUp": "Should morality be judged by intention or outcome?",
+    "publishDate": "2026-11-01"
+  },
+  {
+    "id": 6,
+    "text": "Should we judge people from the past by today's moral standards?",
+    "category": "History",
+    "type": "Question",
+    "source": "Historical interpretation",
+    "context": "Historical context helps explain beliefs and actions, but explanation is not the same as justification.",
+    "followUp": "Are there moral principles that should apply in every era?",
+    "publishDate": "2026-11-02"
+  },
+  {
+    "id": 7,
+    "text": "Is love still selfless when you secretly hope to be loved in return?",
+    "category": "Literature",
+    "type": "Question",
+    "source": "White Nights — Fyodor Dostoevsky",
+    "context": "Unrequited affection raises questions about sacrifice, expectation and emotional generosity.",
+    "followUp": "Can love ever be entirely free of self-interest?",
+    "publishDate": "2026-11-03"
+  },
+  {
+    "id": 8,
+    "text": "If an exact copy of your mind existed, which one would be you?",
+    "category": "Science",
+    "type": "Thought Experiment",
+    "source": "Personal identity thought experiment",
+    "context": "Questions about consciousness and personal identity become especially strange when we imagine perfect duplication.",
+    "followUp": "Would memories alone be enough to make someone you?",
+    "publishDate": "2026-11-04"
+  },
+  {
+    "id": 9,
+    "text": "Should people be required to vote in elections?",
+    "category": "Politics",
+    "type": "Question",
+    "source": "Democratic theory",
+    "context": "Compulsory voting creates tension between civic responsibility and individual freedom.",
+    "followUp": "Is choosing not to vote itself a political choice?",
+    "publishDate": "2026-11-05"
+  },
+  {
+    "id": 10,
+    "text": "Do you seek the truth, or evidence that you're already right?",
+    "category": "Psychology",
+    "type": "Question",
+    "source": "Confirmation bias",
+    "context": "Confirmation bias describes our tendency to favour information supporting existing beliefs.",
+    "followUp": "When did you last change your mind about something important?",
+    "publishDate": "2026-11-06"
+  },
+  {
+    "id": 11,
+    "text": "Would you sacrifice one innocent person to save five others?",
+    "category": "Morality",
+    "type": "Dilemma",
+    "source": "Trolley problem",
+    "context": "The trolley problem tests whether we judge actions by their consequences or by moral rules.",
+    "followUp": "Would physically pushing someone change your answer?",
+    "publishDate": "2026-11-07"
+  },
+  {
+    "id": 12,
+    "text": "Can you be free if you know you're constantly being watched?",
+    "category": "Literature",
+    "type": "Question",
+    "source": "1984 — George Orwell",
+    "context": "The possibility of surveillance may change behaviour even when nobody actively intervenes.",
+    "followUp": "Is privacy necessary for freedom?",
+    "publishDate": "2026-11-08"
+  },
+  {
+    "id": 13,
+    "text": "If everyone received the same salary, which jobs would people still choose?",
+    "category": "Economics",
+    "type": "Thought Experiment",
+    "source": "Original discussion prompt",
+    "context": "Work is motivated by more than money, including meaning, status, interest and social obligation.",
+    "followUp": "Would essential but unpleasant jobs still get done?",
+    "publishDate": "2026-11-09"
+  },
+  {
+    "id": 14,
+    "text": "Are your choices truly yours if your upbringing shaped every preference?",
+    "category": "Philosophy",
+    "type": "Question",
+    "source": "Free will debate",
+    "context": "The debate over free will asks how much control we have over decisions shaped by causes outside our control.",
+    "followUp": "Can a choice be free even when it has causes?",
+    "publishDate": "2026-11-10"
+  },
+  {
+    "id": 15,
+    "text": "Can something be great art if nobody understands it?",
+    "category": "Art",
+    "type": "Question",
+    "source": "Original discussion prompt",
+    "context": "Art can be judged through intention, craftsmanship, emotional impact and public interpretation.",
+    "followUp": "Does an artist need an audience?",
+    "publishDate": "2026-11-11"
+  },
+  {
+    "id": 16,
+    "text": "Would you tell someone a painful truth if a comforting lie would make them happier?",
+    "category": "Ethics",
+    "type": "Dilemma",
+    "source": "Original thought experiment",
+    "context": "Truthfulness and compassion can pull us in different directions.",
+    "followUp": "Who should decide whether someone can handle the truth?",
+    "publishDate": "2026-11-12"
+  },
+  {
+    "id": 17,
+    "text": "Should an AI that convincingly claims to suffer be given moral consideration?",
+    "category": "Technology",
+    "type": "Thought Experiment",
+    "source": "Artificial intelligence ethics",
+    "context": "AI ethics raises difficult questions about whether behaviour, consciousness or the capacity to suffer grounds moral status.",
+    "followUp": "What evidence would convince you an AI could suffer?",
+    "publishDate": "2026-11-13"
+  },
+  {
+    "id": 18,
+    "text": "Who gets to decide which historical figures deserve monuments?",
+    "category": "History",
+    "type": "Question",
+    "source": "Collective memory",
+    "context": "Public monuments express choices about what a society honours and remembers.",
+    "followUp": "Is removing a monument the same as erasing history?",
+    "publishDate": "2026-11-14"
+  },
+  {
+    "id": 19,
+    "text": "Would you still hold your strongest opinion if everyone you respected disagreed?",
+    "category": "Society",
+    "type": "Question",
+    "source": "Original discussion prompt",
+    "context": "Social belonging and respect for authority can influence what we believe.",
+    "followUp": "When is disagreement a sign of courage, and when is it stubbornness?",
+    "publishDate": "2026-11-15"
+  },
+  {
+    "id": 20,
+    "text": "Why do past events seem so obvious after we know how they ended?",
+    "category": "Psychology",
+    "type": "Question",
+    "source": "Hindsight bias",
+    "context": "Hindsight bias can make outcomes feel more predictable than they really were.",
+    "followUp": "How should we judge decisions made under uncertainty?",
+    "publishDate": "2026-11-16"
+  },
+  {
+    "id": 21,
+    "text": "Can a person justify an immoral act by believing it serves a greater good?",
+    "category": "Literature",
+    "type": "Question",
+    "source": "Crime and Punishment — Fyodor Dostoevsky",
+    "context": "Dostoevsky's novel explores guilt, rationalisation and attempts to place oneself above ordinary moral rules.",
+    "followUp": "Does believing you are exceptional make you more dangerous?",
+    "publishDate": "2026-11-17"
+  },
+  {
+    "id": 22,
+    "text": "If the universe contains so many stars, why haven't we found clear evidence of alien civilisations?",
+    "category": "Science",
+    "type": "Question",
+    "source": "Fermi paradox",
+    "context": "The Fermi paradox highlights the tension between the possibility of extraterrestrial life and the absence of confirmed contact.",
+    "followUp": "Does silence tell us anything about humanity's future?",
+    "publishDate": "2026-11-18"
+  },
+  {
+    "id": 23,
+    "text": "Would you steal medicine to save someone you love if you had no other option?",
+    "category": "Morality",
+    "type": "Dilemma",
+    "source": "Original moral dilemma",
+    "context": "The scenario pits property rights and legal rules against the urgency of protecting a human life.",
+    "followUp": "Can breaking the law sometimes be the morally right choice?",
+    "publishDate": "2026-11-19"
+  },
+  {
+    "id": 24,
+    "text": "Should a society protect speech that most people find deeply offensive?",
+    "category": "Politics",
+    "type": "Question",
+    "source": "Freedom of expression debate",
+    "context": "Free expression debates balance open disagreement against the harms speech can cause.",
+    "followUp": "Who should decide where the boundary lies?",
+    "publishDate": "2026-11-20"
+  },
+  {
+    "id": 25,
+    "text": "Can you fall in love with an imagined version of someone rather than who they really are?",
+    "category": "Literature",
+    "type": "Question",
+    "source": "White Nights — Fyodor Dostoevsky",
+    "context": "Loneliness and idealisation can lead people to project their hopes onto another person.",
+    "followUp": "How much of love is knowledge, and how much is imagination?",
+    "publishDate": "2026-11-21"
+  },
+  {
+    "id": 26,
+    "text": "If a tradition causes no obvious harm, is that enough reason to preserve it?",
+    "category": "Culture",
+    "type": "Question",
+    "source": "Original discussion prompt",
+    "context": "Traditions can create belonging and continuity, but their age alone does not settle their value.",
+    "followUp": "When should a society abandon a tradition?",
+    "publishDate": "2026-11-22"
+  },
+  {
+    "id": 27,
+    "text": "If your memories change each time you recall them, what makes your identity stable?",
+    "category": "Psychology",
+    "type": "Question",
+    "source": "Memory reconstruction",
+    "context": "Human memory is reconstructive rather than a perfect recording of past events.",
+    "followUp": "Are you the same person if your story about yourself changes?",
+    "publishDate": "2026-11-23"
+  },
+  {
+    "id": 28,
+    "text": "If you could erase someone's suffering from history, but also erase everything they learned from it, would you?",
+    "category": "Ethics",
+    "type": "Thought Experiment",
+    "source": "Original thought experiment",
+    "context": "This thought experiment asks whether personal growth can ever justify suffering.",
+    "followUp": "Can something have meaning without being necessary?",
+    "publishDate": "2026-11-24"
+  },
+  {
+    "id": 29,
+    "text": "Is being tolerated the same as being accepted?",
+    "category": "Society",
+    "type": "Question",
+    "source": "Original discussion prompt",
+    "context": "Tolerance can mean allowing differences to exist without necessarily respecting or embracing them.",
+    "followUp": "What does genuine acceptance require?",
+    "publishDate": "2026-11-25"
+  },
+  {
+    "id": 30,
+    "text": "Would you choose a perfectly happy life if you knew every experience in it was simulated?",
+    "category": "Philosophy",
+    "type": "Thought Experiment",
+    "source": "Experience machine thought experiment",
+    "context": "The experience-machine thought experiment asks whether pleasure is enough for a good life, or whether reality and achievement matter independently.",
+    "followUp": "Why might an imperfect reality be preferable to perfect happiness?",
+    "publishDate": "2026-11-26"
+  }
+]

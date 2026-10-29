@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customise Your Journal | One Question A Day</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="customise.css">
+  <script src="customise.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a class="logo" href="index.html">✳ One Question A Day</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">The Journal</a>
+      <a href="customise.html" aria-current="page">Customise</a>
+    </div>
+  </nav>
+
+  <main class="customiser-page">
+    <header class="customiser-heading">
+      <p class="step-label">YOUR JOURNAL, YOUR WAY</p>
+      <h1>Make it yours.</h1>
+      <p>Choose your book, personalise the cover and fill it with the pages that matter to you.</p>
+    </header>
+
+    <div class="customiser-layout">
+      <div class="customiser-options">
+
+        <section class="option-panel" id="book-settings">
+          <p class="step-label">STEP 01 · YOUR BOOK</p>
+          <h2>Choose your journal</h2>
+          <p>How much of your story would you like to capture?</p>
+
+          <fieldset class="duration-options">
+            <legend>Journal duration</legend>
+            <label class="duration-card">
+              <input type="radio" name="duration" value="1">
+              <span class="duration-content">
+                <strong>1 Month</strong>
+                <small>A fresh start</small>
+              </span>
+            </label>
+            <label class="duration-card">
+              <input type="radio" name="duration" value="3" checked>
+              <span class="duration-content">
+                <strong>3 Months</strong>
+                <small>A full season</small>
+              </span>
+            </label>
+            <label class="duration-card">
+              <input type="radio" name="duration" value="6">
+              <span class="duration-content">
+                <strong>6 Months</strong>
+                <small>Half a year</small>
+              </span>
+            </label>
+          </fieldset>
+
+          <label class="check-option">
+            <input id="dated-journal" type="checkbox" checked>
+            Print the month and year in my journal
+          </label>
+
+          <div id="date-settings">
+            <label class="field-label" for="start-month">Starting month and year</label>
+            <input id="start-month" type="month" value="2026-11">
+          </div>
+
+          <div class="months-box">
+            <strong>Your journal will include</strong>
+            <div id="selected-months" class="month-tags"></div>
+          </div>
+        </section>
+
+        <section class="option-panel" id="cover-settings">
+          <p class="step-label">STEP 02 · THE OUTSIDE</p>
+          <h2>Design your cover</h2>
+
+          <fieldset class="colour-options">
+            <legend>Cover colour</legend>
+            <label><input type="radio" name="cover" value="sage" checked><span class="swatch sage"></span>Sage</label>
+            <label><input type="radio" name="cover" value="brown"><span class="swatch brown"></span>Brown</label>
+            <label><input type="radio" name="cover" value="cream"><span class="swatch cream"></span>Cream</label>
+            <label><input type="radio" name="cover" value="charcoal"><span class="swatch charcoal"></span>Charcoal</label>
+            <label><input type="radio" name="cover" value="burgundy"><span class="swatch burgundy"></span>Burgundy</label>
+            <label><input type="radio" name="cover" value="forest"><span class="swatch forest"></span>Forest</label>
+          </fieldset>
+
+          <label class="field-label" for="cover-material">Cover material</label>
+          <select id="cover-material">
+            <option value="linen">Linen</option>
+            <option value="leather">Faux leather</option>
+            <option value="paper">Textured paper</option>
+          </select>
+
+          <label class="field-label" for="cover-title">Personalised title (optional)</label>
+          <input id="cover-title" type="text" maxlength="30" placeholder="Leave blank for no title">
+
+          <label class="check-option">
+            <input id="show-brand" type="checkbox" checked>
+            Show the small brand name
+          </label>
+
+          <label class="field-label" for="title-finish">Title finish</label>
+          <select id="title-finish">
+            <option value="ivory">Ivory</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="blind">Debossed look</option>
+          </select>
+        </section>
+
+        <section class="option-panel" id="paper-settings">
+          <p class="step-label">STEP 03 · WRITING SPACE</p>
+          <h2>Choose your paper</h2>
+
+          <label class="field-label" for="paper-type">Free-writing paper style</label>
+          <select id="paper-type">
+            <option value="squared">Squared · 5 mm</option>
+            <option value="dotted">Dotted</option>
+            <option value="lined">Lined</option>
+            <option value="blank">Blank</option>
+          </select>
+
+          <label class="field-label" for="writing-pages">Free-writing pages per month</label>
+          <select id="writing-pages">
+            <option value="10">10 pages</option>
+            <option value="20" selected>20 pages</option>
+            <option value="30">30 pages</option>
+            <option value="40">40 pages</option>
+          </select>
+        </section>
+
+        <section class="option-panel" id="essentials-settings">
+          <p class="step-label">STEP 04 · ALWAYS INCLUDED</p>
+          <h2>Your essential pages</h2>
+          <p>These sections come with every book. There are no writing prompts or layout choices to worry about.</p>
+
+          <div class="essential-option">
+            <div class="essential-heading">
+              <h3>Monthly Goals</h3>
+              <span class="required-tag">Included</span>
+            </div>
+            <p>Open space to write whatever goals you choose for the month.</p>
+          </div>
+
+          <div class="essential-option">
+            <div class="essential-heading">
+              <h3>A Moment a Day</h3>
+              <span class="required-tag">Included</span>
+            </div>
+            <p>One memorable moment for every day, directly beside your habit tracker.</p>
+          </div>
+
+          <div class="essential-option">
+            <div class="essential-heading">
+              <h3>Habit Tracker</h3>
+              <span class="required-tag">Included</span>
+            </div>
+            <p>Choose the habits you want to track. Each day lines up with its memorable moment and progress graph.</p>
+
+            <label class="field-label" for="habit-count">Number of habits</label>
+            <select id="habit-count">
+              <option value="3">3 habits</option>
+              <option value="5" selected>5 habits</option>
+              <option value="8">8 habits</option>
+              <option value="10">10 habits</option>
+            </select>
+
+            <div id="habit-names" class="habit-names"></div>
+            <p class="helper">Leave a habit name empty to fill it in by hand.</p>
+
+            <label class="field-label" for="habit-graph">Progress graphs</label>
+            <select id="habit-graph">
+              <option value="score">Habit completion score</option>
+              <option value="mood">Mood</option>
+              <option value="both" selected>Habit score + mood</option>
+              <option value="none">No graphs</option>
+            </select>
+
+            <label class="check-option">
+              <input id="habit-reflection" type="checkbox" checked>
+              Include a habit reflection area
+            </label>
+          </div>
+
+          <div class="essential-option">
+            <div class="essential-heading">
+              <h3>Monthly Reflection</h3>
+              <span class="required-tag">Included</span>
+            </div>
+            <p>A clean, open space to reflect on the month in your own words.</p>
+          </div>
+        </section>
+
+        <section class="option-panel" id="extras-settings">
+          <p class="step-label">STEP 05 · OPTIONAL PAGES</p>
+          <h2>Add more to your journal</h2>
+          <p>Choose the sections you'd like. We'll automatically put them in the right places.</p>
+
+          <div id="optional-sections" class="optional-grid">
+            <label class="optional-item"><input type="checkbox" value="ownership"><span><strong>This Journal Belongs To</strong><small>Opening page</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="future"><span><strong>Letter to Future Self</strong><small>Opening pages</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="vision"><span><strong>Vision Board</strong><small>Opening pages</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="bucket"><span><strong>Bucket List</strong><small>Opening pages</small></span></label>
+
+            <label class="optional-item"><input type="checkbox" value="mood"><span><strong>Mood Tracker</strong><small>Every month</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="sleep"><span><strong>Sleep Tracker</strong><small>Every month</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="gratitude"><span><strong>Gratitude Pages</strong><small>Every month</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="highlights"><span><strong>Monthly Highlights</strong><small>Every month</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="fitness"><span><strong>Fitness Tracker</strong><small>Every month</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="challenge"><span><strong>30-Day Challenge</strong><small>Every month</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="scrapbook"><span><strong>Memory Scrapbook</strong><small>Every month</small></span></label>
+
+            <label class="optional-item"><input type="checkbox" value="weekly"><span><strong>Weekly Planner</strong><small>Every week</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="weeklygoals"><span><strong>Weekly Goals</strong><small>Every week</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="weeklyreflection"><span><strong>Weekly Reflection</strong><small>Every week</small></span></label>
+
+            <label class="optional-item"><input type="checkbox" value="reading"><span><strong>Reading Log</strong><small>Once per book</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="creative"><span><strong>Creative Ideas</strong><small>Once per book</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="achievements"><span><strong>Biggest Achievements</strong><small>Closing pages</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="lessons"><span><strong>Lessons I've Learned</strong><small>Closing pages</small></span></label>
+            <label class="optional-item"><input type="checkbox" value="next"><span><strong>What's Next?</strong><small>Closing pages</small></span></label>
+          </div>
+        </section>
+
+        <section class="option-panel">
+          <p class="step-label">STEP 06 · SAVE</p>
+          <h2>Save your design</h2>
+          <p>Keep your selections in this browser and come back later.</p>
+          <button id="save-design" class="primary-btn" type="button">Save My Design</button>
+          <p id="save-message" role="status" aria-live="polite"></p>
+        </section>
+      </div>
+
+      <aside class="preview-panel">
+        <p class="step-label">LIVE PREVIEW</p>
+        <h2>Your journal</h2>
+        <p class="helper">See the cover and the pages you've chosen.</p>
+
+        <div class="preview-tabs">
+          <button type="button" class="preview-tab active" data-tab="cover">Cover</button>
+          <button type="button" class="preview-tab" data-tab="inside">Inside</button>
+        </div>
+
+        <div id="cover-preview">
+          <div class="journal-stage">
+            <div id="journal-cover" class="journal-cover sage material-linen">
+              <span id="cover-brand" class="cover-brand">ONE QUESTION A DAY</span>
+              <span id="preview-title" hidden></span>
+              <span id="cover-dates" class="cover-dates"></span>
+              <span class="cover-volume">YOUR JOURNAL</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="inside-preview" hidden>
+          <div class="page-stage">
+            <div id="paper-preview" class="paper-preview">
+              <h3 id="page-preview-heading"></h3>
+              <div id="page-preview-content"></div>
+            </div>
+
+            <div id="habit-spread" class="habit-spread" hidden>
+              <div class="spread-page">
+                <h3>A MOMENT A DAY</h3>
+                <p class="spread-caption" id="spread-left-caption"></p>
+                <div id="habit-spread-left"></div>
+              </div>
+              <div class="spread-page">
+                <h3>HABITS & PROGRESS</h3>
+                <p class="spread-caption" id="spread-right-caption"></p>
+                <div id="habit-spread-right"></div>
+              </div>
+            </div>
+          </div>
+
+          <label class="field-label" for="preview-page">Preview a section</label>
+          <select id="preview-page"></select>
+
+          <label class="field-label" for="preview-month">Preview month</label>
+          <select id="preview-month"></select>
+        </div>
+
+        <div class="preview-summary">
+          <h3>Your design</h3>
+          <p><strong>Duration:</strong> <span id="summary-duration"></span></p>
+          <p><strong>Dates:</strong> <span id="summary-dates"></span></p>
+          <p><strong>Cover:</strong> <span id="summary-cover"></span></p>
+          <p><strong>Material:</strong> <span id="summary-material"></span></p>
+          <p><strong>Title:</strong> <span id="summary-title"></span></p>
+          <p><strong>Paper:</strong> <span id="summary-paper"></span></p>
+          <p><strong>Extras:</strong> <span id="summary-extras"></span></p>
+        </div>
+
+        <div class="page-calculator">
+          <div class="page-calculator-heading">
+            <h3>Estimated pages</h3>
+            <strong id="page-count"></strong>
+          </div>
+          <div class="page-progress"><div id="page-progress-fill"></div></div>
+          <p id="page-message" aria-live="polite"></p>
+          <p class="helper">Prototype estimate only. Final print specifications may change.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>One Question A Day</p>
+    <p>Write by hand. Reflect at your own pace.</p>
+  </footer>
+</body>
+</html>
